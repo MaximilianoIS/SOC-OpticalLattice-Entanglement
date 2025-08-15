@@ -1,4 +1,4 @@
-# Spin Dynamics Simulation: OAT & Exact Diagonalization
+# Quantum Entanglement in Spin-Orbit Coupled Optical Lattice Systems
 
 This repository contains C++ implementations of spin dynamics simulations for models described in the main paper and related works.  
 So far, this includes:
