@@ -15,7 +15,7 @@ Further equations and models from the main paper will be incorporated over time,
 
 ### **1. OAT Hamiltonian (`H_oat`)**
 - Implements the reduced model for large systems in the **S = L/2** Dicke manifold.
-- Maps XXZ couplings to OAT parameters via the main paper’s Eq. (5).
+- Maps XXZ couplings to OAT parameters via the main paper’s Eq. (9).
 - Hamiltonian:
   \[
   H_{\text{OAT}} = \frac{2(J_\parallel + J_\perp)}{L-1} S^2 + \frac{2(J_\parallel - J_\perp)}{L-1} S_x^2 + 2 J_\Omega S_x
