@@ -11,7 +11,7 @@ Further equations and models from the main paper will be incorporated over time,
 
 ---
 
-## 📄 Overview
+## Overview
 
 ### **1. OAT Hamiltonian (`H_oat`)**
 - Implements the reduced model for large systems in the **S = L/2** Dicke manifold.
@@ -35,7 +35,7 @@ Further equations and models from the main paper will be incorporated over time,
 
 ---
 
-## 📊 Features
+## Features
 
 - **Two modeling approaches**:
   - **OAT** → Efficient for large \( L \) with symmetric spin states.
@@ -51,11 +51,10 @@ Further equations and models from the main paper will be incorporated over time,
 - **C++17 or newer**
 - [Armadillo](http://arma.sourceforge.net/) (linear algebra)
 - [ARPACK](https://www.caam.rice.edu/software/ARPACK/) (eigenvalue problems)
-- [OpenMP](https://www.openmp.org/) (optional, for parallel loops)
 
 ---
 
-## ▶️ Usage
+## ▶️ Compilation
 
 ### **Build**
 ```bash
@@ -76,10 +75,8 @@ make
 
 ```
 ├── src/
-│   ├── oat.cpp              # OAT Hamiltonian & evolution
-│   ├── ed.cpp               # Exact diagonalization of Bose–Hubbard
-│   ├── dicke_ops.cpp        # Collective spin operators
-│   ├── utils.cpp            # Basis generation, hashing
+│   ├── H_OAT.cpp              # OAT Hamiltonian & evolution
+│   ├── spdm.cpp               # Exact diagonalization of Bose–Hubbard
 │   └── ...
 ├── data/                    # Output CSV files
 ├── plots/                   # Scripts to visualize results
@@ -89,7 +86,7 @@ make
 
 ---
 
-## 📈 Example Output
+##  Example Output
 
 ### OAT Contrast (Main Paper Fig. 2d parameters)
 ```
